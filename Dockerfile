@@ -5,6 +5,8 @@ ENV DEBIAN_FRONTEND noninteractive
 ENV LC_ALL en_US.UTF-8
 ENV LANGUAGE en_US:en
 
+LABEL maintainer=Swordfox
+
 RUN \
  apt-get update &&\
  apt-get -y --no-install-recommends install locales apt-utils &&\
