@@ -7,7 +7,7 @@
 
 More help in Bitbucket's [Confluence](https://confluence.atlassian.com/bitbucket/bitbucket-pipelines-beta-792496469.html)
 
-Docker image at [swordfox/bitbucket-pipelines-debian-8:lastest](https://hub.docker.com/r/swordfox/bitbucket-pipelines-debian-8/)
+Docker image at [swordfox/bitbucket-pipelines-debian-8](https://hub.docker.com/r/swordfox/bitbucket-pipelines-debian-8/)
 
 ## Packages installed
 
@@ -24,7 +24,7 @@ Docker image at [swordfox/bitbucket-pipelines-debian-8:lastest](https://hub.dock
 ## Sample `bitbucket-pipelines.yml`
 
 ```YAML
-image: swordfox/bitbucket-pipelines-debian-8:lastest
+image: swordfox/bitbucket-pipelines-debian-8:latest
 pipelines:
   default:
     - step:
